@@ -1,0 +1,16 @@
+-- 1. aşama
+--Select rating, count(*) from film
+-- group by rating
+-- 2. aşama
+--select replacement_cost, count(*) from film
+--group by replacement_cost 
+--having count(film)> 50
+--order by count asc;
+-- 3. Aşama 
+--select store_id, count(*) from customer 
+--group by store_id
+-- 4. Aşama
+-- select country_id, count(*) from city
+-- group by country_id 
+-- order by count desc
+-- en fazla country id 44, sayısı ise 60
