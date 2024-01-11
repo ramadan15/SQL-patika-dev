@@ -1,0 +1,23 @@
+-- 1. aşama
+--(select first_name from actor
+-- order by first_name
+-- )
+-- UNION 
+-- (select first_name from customer
+ --order by first_name
+--)
+  -- 2. Aşama
+  --(select first_name from actor
+  --order by first_name)
+  --Intersect
+  --(select first_name from customer
+  -- order by first_name)
+  
+  -- 3. aşama
+  -- (select first_name from actor 
+  -- order by first_name
+  -- )
+   -- except
+   -- ( select first_name from actor
+   -- )
+   
