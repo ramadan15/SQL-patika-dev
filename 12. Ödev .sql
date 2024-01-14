@@ -1,0 +1,9 @@
+-- 1. aşama
+--select count(*) from film
+-- where length> 115
+-- 489--
+-- 2. aşama
+--select film.rental_rate, count(*) from film
+-- group by rental_rate
+-- order by rental_rate desc
+-- 336--
